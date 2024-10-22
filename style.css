@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0e7ff; /* Background color */
+    background-color: #f3f4f8; /* Background color */
 }
 
 .container {
@@ -24,4 +24,45 @@ h1 {
     color: #4a4a4a; /* Header color */
 }
 
+label {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #333;
+    display: block;
+    cursor: pointer;
+}
+
+input[type="checkbox"]
+{
+    margin-right: 10px;
+}
+
+button.left-button { 
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button.right-button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 /* Add more styles here as needed */
+button:hover {
+    opacity: 0,9;
+}
